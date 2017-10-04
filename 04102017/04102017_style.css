@@ -1,8 +1,18 @@
-﻿body { 
-    background-color:mediumpurple;
-}
+﻿
+
+body {background-color:mediumpurple;}
 #wrapper{
 
 }
 
-nav ul {}
+main {  }
+
+nav {background-color:lightpink;
+     width:90px;
+     float:left;
+}
+footer {    }
+
+nav ul {list-style-type:none;}
+nav a {text-decoration:none}
+nav li {margin-left:-25px}
