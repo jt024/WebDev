@@ -1,18 +1,19 @@
-﻿
-
+﻿header, nav, main, footer, aside {display:block}
+header {background-color:lightblue;}
 body {background-color:mediumpurple;}
-#wrapper{
+main {background-color:lightgreen; margin-left:150px;}
+footer {background-color:lightgray; clear:left;}
+nav {background-color:lightpink; width:100px; float:left;}
 
-}
-
-main {  }
-
-nav {background-color:lightpink;
-     width:90px;
-     float:left;
-}
-footer {    }
 
 nav ul {list-style-type:none;}
-nav a {text-decoration:none}
-nav li {margin-left:-25px}
+nav a {text-decoration:none;}
+nav li {margin-left:-35px; margin-bottom:5px;}
+nav a:hover {color:red; font-weight:bold;}
+
+
+#wrapper{background-color:lightyellow;
+         width:800px;
+         margin-left:auto;
+         margin-right:auto;
+}
