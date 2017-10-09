@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 2</title>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+       .Center{text-align:center}
+       strong{color:blue}
+       
+    </style>
+
+
+</head>
+<body>
+    <h1>This is a top-level heading</h1>
+    <p>This is some ordinary content that's in a paragraph. Please name this file "index.html"</p>
+    <p>Here is another paragraph that has multiple<br /> 
+       small page breaks <br />
+       but it is still a single paragraph</p>
+
+    <h2>Here is a Secondary heading</h2>
+<!-- that's not technically the emphasis tag -->
+    <blockquote>This is in a blockquote and also uses an <i>emphasis</i> tag</blockquote>
+<!-- My bad you wanted the <em> emphasis </em> ? -->
+
+	
+	
+	<p>I like bullet lists, because:</p>
+    <ul> 
+        <li>They are neat</li>
+        <li>They are concise</li>
+
+    </ul>
+    <p>You can get numbers if you use the &lt;ol&gt; tag (Hint: use entities)</p>
+    <p>Here is an example of a hyperlink <a href="http://www.emmet-gray.com">http://www.emmet-gray.com</a></p>
+    <p style="color:red">Please use "inline" CSS to make this paragraph red</p>
+    <p class="Center">Make this paragraph centered via "internal/embedded" CSS (Hint: use a class)</p>
+    <p id="BlueText">Make this paragraph blude using "external" CSS (Hint: via an id and style.css file)</p>
+    <p style="font-family:Verdana">This paragraph is using the Verdana font using "inline" CSS</p>
+    <p>This paragraph just has one <span style="color:green">word</span> in green (Hint: use span and inline)</p>
+    
+<!-- I was expecting to see dependant selectors -->
+ 
+    <p>Use "internal/embedded" CSS to change the color of this <strong>strong</strong> text
+                  <!-- example: ?
+                      #id	
+                      #strongword	
+                      selects the element with id="strongword" 
+                      <span id="strongword"> strong </span>
+                   
+                      I think I am missing what your asking for. Which is completly on me
+                      as you probably hammered home multiple times in class.
+                      I was thinking "internal/embedded" with this one, so I just assumed you wanted the color
+                      of the inline tag to be changed in the index file within the CSS style block. 
+                      -->
+        (Hint: using descendent selectors)</p>
+
+    <div class="GrayText">
+        <p>These are 3 separate paragraphs</p>
+        <p>You need to figure out how to group a bunch pf paragraphs</p>
+        <p>So you can apply "external" CSS just once to apply to them all
+            (Hint: use a class and some sort of grouping tag)</p>
+    </div>
+</body>
+</html>
