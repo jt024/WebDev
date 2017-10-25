@@ -1,36 +1,33 @@
-﻿header, nav, main, footer, aside {display: block; margin-left:10px;margin-right:10px;}
+﻿header, nav, main, footer, aside {display: block; }
 
 #wrapper {position:fixed; 
           background-color:aqua; 
           width:800px; 
-          margin-left:auto; 
+          margin-left:10px; 
           margin-right:auto; 
+
           }
 
 header {background-color:lightcoral;
+         
         text-align:center;
         height:100px;}
 
-nav {background-color:yellow;
-     float:left;
-     width:150px;
-     }
+nav {background-color:yellow; 
+     width:100px; 
+     float:left}
 
-main {background-color:lightgreen;
-      margin-left:165px; 
-      }
+main {background-color:lightgreen; 
+      margin-left:1px}
 
 footer {background-color:lightgray; 
-        margin-left:165px;
+        width:30px; 
         clear:left;}
 
 
 nav {width:150px;} 
-
 nav ul {list-style-type:none}
-
 nav a {text-decoration: none}
-
 nav li {margin-left:-35px; 
         margin-bottom:6px}
 
