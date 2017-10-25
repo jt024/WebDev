@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Classwork</title>
+	<meta charset="utf-8" />
+    <style>
+        th{background-color:darkgray;}
+        tbody tr:nth-of-type(2n){background-color:lightgrey;}
+        table {border-collapse:collapse;}
+        tfoot{border-top:2px solid black;font-style:italic;}
+        thead{border-bottom:2px double black;}
+
+
+            /*Attribute Selecter*/
+        td[headers="Age"]{text-align:right; width:50px; background-color:yellow;} 
+        td[headers="Shoe Size"] {text-align:right}
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <table border="1" >
+        <caption>Shoe Size</caption>
+        
+        <thead>
+            <tr>
+                <th id="Name">Name</th>
+                <th id="Address">Address</th>
+                <th id="Age">Age</th>
+                <th id="Shoe Size">Shoe Size</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td headers="Name">John Doe</td>
+                <td headers="Address">123 Any Street</td>
+                <td headers="Age">42</td>
+                <td headers="Shoe Size">8.5</td>
+            </tr>
+            <tr>
+                <td headers="Name">Jane Doe</td>
+                <td headers="Address">123 Any Street</td>
+                <td headers="Age">12</td>
+                <td headers="Shoe Size">6</td>
+            </tr>
+            <tr>
+                <td headers="Name">Joe Kumquat</td>
+                <td headers="Address">666 Devils Way</td>
+                <td headers="Age">66</td>
+                <td headers="Shoe Size">12</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td headers="Name">Average</td>
+                <td headers="Address">&nbsp;</td>
+                <td headers="Age">40</td>
+                <td headers="Shoe Size">8.8</td>
+
+            </tr>
+        </tfoot>
+
+
+    </table>
+
+</body>
+</html>
