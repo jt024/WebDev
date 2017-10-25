@@ -1,12 +1,34 @@
 ﻿header, nav, main, footer, aside {display: block}
-body {background-color:mediumpurple}
-#wrapper {background-color:aqua; width:800px; margin-left:auto; margin-right:auto;position: fixed}
-header {background-color:lightcoral}
-nav {background-color:yellow; width:100px; float:left}
-main {background-color:lightgreen; margin-left:105px}
-footer {background-color:lightgray; clear:left}
+
+#wrapper {background-color:aqua; 
+          width:800px; 
+          margin-left:auto; 
+          margin-right:auto; 
+          position:fixed}
+
+header {background-color:lightcoral;
+        height:100px;}
+
+nav {background-color:yellow; 
+     width:100px; 
+     float:left}
+
+main {background-color:lightgreen; 
+      margin-left:105px}
+
+footer {background-color:lightgray; 
+        clear:left}
+
+
 /* nav {position: fixed} */
 nav ul {list-style-type:none}
 nav a {text-decoration: none}
-nav li {margin-left: -35px; margin-bottom:6px}
-nav a:hover {color:red; font-weight:bold}
+nav li {margin-left: -35px; 
+        margin-bottom:6px}
+
+nav a:hover {color:red; 
+             font-weight:bold}
+nav a:active {color:blue; 
+             font-weight:bold}
+nav a: {color:magenta; 
+             font-weight:bold}
