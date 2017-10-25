@@ -1,19 +1,12 @@
-﻿
-
-body {/*margin:auto;*/ 
-      max-width:800px;
-      /*border:none;*/
-      background-color:aqua;
-
-}
-header{text-align:center; height:100px; background-color:lightcoral;}
-nav{width:150px;}
-footer{height:30px;}
-
-div #wrapper {position:absolute;
-              margin-left:auto;
-              margin-right:auto;
-              top: 20px;
-              width:800px;
-              background-color: #CCCCCC;
-}
+﻿header, nav, main, footer, aside {display: block}
+body {background-color:mediumpurple}
+#wrapper {background-color:aqua; width:800px; margin-left:auto; margin-right:auto;position: fixed}
+header {background-color:lightcoral}
+nav {background-color:yellow; width:100px; float:left}
+main {background-color:lightgreen; margin-left:105px}
+footer {background-color:lightgray; clear:left}
+/* nav {position: fixed} */
+nav ul {list-style-type:none}
+nav a {text-decoration: none}
+nav li {margin-left: -35px; margin-bottom:6px}
+nav a:hover {color:red; font-weight:bold}
