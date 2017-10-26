@@ -1,2 +1,46 @@
-﻿body {
+﻿/**
+ * This is my print stylesheet
+ *
+*/
+
+@media print {
+
+
+header, nav, main, footer, aside {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#wrapper {
+position: fixed;
+background-color: aqua;
+width: 800px;
+margin-top: -5px;
+}
+
+header {
+background-color: lightcoral;
+text-align: center;
+height: 100px;
+}
+
+
+
+main {
+background-color: lightgreen;
+
+}
+
+footer {
+background-color: lightgray;
+margin-left: 165px;
+margin-top: -16px;
+clear: left;
+}
+
+
+nav {display:none;}
+
+    
 }
